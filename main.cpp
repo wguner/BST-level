@@ -1,14 +1,11 @@
 /*
  * Binary Search Tree implementation 
- *  - heavily lifted from https://gist.github.com/mgechev/5911348
  *
  * Simple integer keys and basic operations BST
  *
  * Aaron Crandall - 2016 - Added / updated:
  *  * Inorder, Preorder, Postorder printouts
  *  * Stubbed in level order printout
- * Aaron Crandall - 2017 - Heavy overhaul of tests & behaviors
- * Aaron Crandall - 2019 - Integration with gtest and GitLab CI
  *
  */
 
