@@ -1,9 +1,8 @@
 /*
- * Binary Search Tree implementation 
+ *  Binary Search Tree implementation 
  *
- * Simple integer keys and basic operations BST
+ *  Simple integer keys and basic operations BST
  *
- * Aaron Crandall - 2016 - Added / updated:
  *  * Inorder, Preorder, Postorder printouts
  *  * Stubbed in level order printout
  *
@@ -20,7 +19,7 @@
 using namespace std;
 
 /*
- * run big test - LOTS of data in your tree!
+ * run big test
  */
 /*
 void run_big_test() {
@@ -55,7 +54,7 @@ void run_big_test() {
 
 
 /*
- * Main function - includes enabling test mode
+ * Main function 
  */
 int main( int argc, char* argv[] ) {
 	bool is_test_mode = false;
@@ -77,16 +76,6 @@ int main( int argc, char* argv[] ) {
  //           run_big_test();
 	}else{
 		cout << " [x] Running main program - nothing to do!" << endl;
-        cout << "     Since it's quiet, here's a flower..." << endl << endl;
-        cout << ""
-"              __/)\n"
-"           .-(__(=:\n"
-"        |\\ |    \\)\n"
-"ejm97   \\ ||\n"
-"         \\||\n"
-"          \\|\n"
-"           |\n"
-"        \n";
 	}
 
     return 0;
