@@ -5,13 +5,9 @@
  *
  * Simple keys and basic operations BST
  *
- * Aaron Crandall - 2016 - Added / updated:
  *  * Inorder, Preorder, Postorder printouts
  *  * Stubbed in level order printout
- * Aaron Crandall - 2017 - Heavy overhaul of tests & behaviors
- *  * Added BigFive (like we should!)
- *  * Added several public interfaces for tree features
- * Aaron Crandall - 2019 - Fixed -Wshadow errors
+ *    Fixed -Wshadow errors
  *  * Identified a few badly done interface fixes
  *
  */
@@ -138,7 +134,6 @@ class BST {
     }
 
     /* Print tree out in level order */
-    /* MA TODO: Implement */
     void printLevelOrderHelper(Node<T> *root, std::ostream& out) {
         queue<Node<T>*> pNode;
         if (!root) return;
@@ -247,7 +242,6 @@ class BST {
 
 
     /* Destructor - Needs to free *all* nodes in the tree */
-    /* MA TODO: Implement */
     ~BST( ) {
         if( this->_debug ) {
             cout << " TODO: Implement destructor to free *whole* tree. " << endl;
